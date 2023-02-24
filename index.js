@@ -37,27 +37,27 @@ search.addEventListener('click', () => {
             switch (json.weather[0].main) {
                 
                 case 'Clear':
-                    image.src = '/Users/Naveen/Desktop/NewWeather/icons/01d.png';
+                    image.src = 'icons/01d.png;
                     break;
 
                 case 'Clouds':
-                    image.src = '/Users/Naveen/Desktop/NewWeather/icons/02d.png';
+                    image.src = 'icons/02d.png';
                     break;
 
                 case 'Rain':
-                    image.src = '/Users/Naveen/Desktop/NewWeather/icons/10d.png';
+                    image.src = 'icons/10d.png';
                     break;
 
                 case 'Thunderstorm':
-                    image.src = '/Users/Naveen/Desktop/NewWeather/icons/11d.png';
+                    image.src = 'icons/11d.png';
                     break;
 
                 case 'Snow':
-                    image.src = '/Users/Naveen/Desktop/NewWeather/icons/13d.png';
+                    image.src = 'icons/13d.png';
                     break;
 
                 case 'Mist':
-                    image.src = '/Users/Naveen/Desktop/NewWeather/icons/50d.png';
+                    image.src = 'icons/50d.png';
                     break;
 
                     default:
